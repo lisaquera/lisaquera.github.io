@@ -1,0 +1,136 @@
+/*Github style
+
+color scheme:
+dark blue #12232e
+dark gray #5c5f58
+light gray #dce1e3
+very light gray #f1f1f1
+black #000000
+
+*/
+body {
+  font-family: Arial;
+  padding: 20px;
+  background: #f1f1f1;
+}
+
+section {
+  padding: 50px 50px 50px 50px;
+}
+
+/* Page Header */
+.header {
+  padding: 30px;
+  font-size: 40px;
+  text-align: center;
+  background: white;
+  color: #000000;
+}
+
+/* Blog Title */
+#title {
+    text-align: left;
+    color: #5c5f58;
+    font-size: 32px;
+}
+#subtitle {
+    text-align: left;
+    color: #5c5f58;
+    font-size: 20px;
+}
+
+#byline {
+    text-align: left;
+    color: #000000;
+    font-size: 14px;
+}
+
+.tiptext {
+    text-align: center;
+    color: #000000;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.tipimage {
+    padding: 20px 100px 20px 100px;
+}
+
+.text {
+    text-align: left;
+    color: #5c5f58;
+    font-size: 16px;
+}
+
+#closinghead {
+    text-align: center;
+    color: #36008d;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.tiplist {
+    text-align: left;
+    color: #004e7c;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.sidenote {
+    text-align: left;
+    color: #048eff;
+    font-size: 14px;
+}
+
+/* Add a card effect for articles */
+.card {
+  background-color: white;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+table,
+td {
+    border: 1px solid #5c5f58;
+    color: #5c5f58;
+}
+
+thead,
+tfoot {
+    /*background-color: #333;
+    color: #fff; */
+
+}
+
+a {
+    color: #12232e;
+}
+
+blockquote {
+    text-align: center;
+    color: #12232e;
+    font-style: italic;
+}
+
+/* Footer */
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #ddd;
+  margin-top: 20px;
+}
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+  .leftcolumn, .rightcolumn {
+    width: 100%;
+    padding: 0;
+  }
+}
